@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to my Front-End Developer Portfolio Site
 
-You can use the [editor on GitHub](https://github.com/gpolyn/front-end-developer/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+To demonstrate my front-end web skills in 2017, I duplicate a [five-year-old front-end](http://www.sizemymultifamilyloan.com/api/fha_sec223f_demo) from my personal commercial real estate finance site, [sizemymultifamilyloan](http://www.sizemymultifamilyloan.com). The original front-end was completed in [CoffeeScript](http://coffeescript.org/) with [Backbone](http://backbonejs.org) in Rails 3. As it happens, a certain Ruby gem that is critical to my original front-end tests is no longer available. The missing gem and my diminished interest in Coffeescript made it easy to embrace the challenge of duplication into 1) React.js and 2) Angular 2. 
 
 ### Markdown
 
