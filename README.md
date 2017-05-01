@@ -1,13 +1,10 @@
 ## Welcome to my Front-End Developer Portfolio Site
 
-To demonstrate my front-end web skills in 2017, I duplicate a [five-year-old front-end](http://www.sizemymultifamilyloan.com/api/fha_sec223f_demo) from my personal commercial real estate finance site, [sizemymultifamilyloan.com](http://www.sizemymultifamilyloan.com). The original front-end was completed in [CoffeeScript](http://coffeescript.org) with [Backbone](http://backbonejs.org) in [Rails](http://guides.rubyonrails.org/index.html) 3.
+To demonstrate my front-end web skills in 2017, I duplicate a [five-year-old front-end](http://www.sizemymultifamilyloan.com/api/fha_sec223f_demo) from my personal commercial real estate finance site, [sizemymultifamilyloan.com](http://www.sizemymultifamilyloan.com). The original front-end was completed in [CoffeeScript](http://coffeescript.org) on [Backbone](http://backbonejs.org) in [Rails](http://guides.rubyonrails.org/index.html) 3.
 
-I chose React and Angular for the duplication exercise due to the popularity of the frameworks and my comfort in the quality and durability of ongoing support for the platforms by Facebook and Google. The...TK
+I chose [React](https://facebook.github.io/react) and [Angular 2](https://angular.io) for the duplication effort due both to the popularity of the frameworks and to my comfort in the quality of ongoing support for them by Facebook and Google, respectively. The...TK
 
 Meanwhile, I developed the sizemymultifamilyloan.com API code for modularity, where each loan-amount limiting criterion is contained as a Ruby gem and the gems then composed together. This approach allows for the calculation of Federal Housing Administration Multifamily loan types beyond just the Section 223(f) type shown. The Ruby gems, and the rest of the site code, are available for inspection under the TK license here TK. I may 
-
-The deployed sizemymultifamilyloan.com was inexpertly executed, such that I do not now enjoy access to the 
-As it happens, a certain Ruby gem critical to the original front-end tests is no longer available, which, in addition to my diminished interest in Coffeescript made it easy to embrace the challenge of duplication of the front-end into React.js and Angular 2.
 
 ### Markdown
 
