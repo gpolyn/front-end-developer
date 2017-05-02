@@ -2,12 +2,12 @@
 
 To demonstrate my front-end web skills in 2017, I duplicate a [five-year-old front-end](http://www.sizemymultifamilyloan.com/api/fha_sec223f_demo) from my personal commercial real estate finance site, [sizemymultifamilyloan.com](http://www.sizemymultifamilyloan.com). The original front-end was completed in [CoffeeScript](http://coffeescript.org) on [Backbone](http://backbonejs.org) and depends on the [Rails](http://guides.rubyonrails.org/index.html) 3 asset pipeline.
 
-For the duplication effort, I chose [React](https://facebook.github.io/react) and [Angular 2](https://angular.io) due to their popularity and to my comfort in the quality of their ongoing support by Facebook and Google, respectively. I observed the following two conditions in my effort:
+For the duplication effort, I chose [React](https://facebook.github.io/react) and [Angular 2](https://angular.io) due to their popularity and to my comfort in the quality of their ongoing support by Facebook and Google. I observed the following two conditions in my effort:
 
 1. the DOM structure and CSS style for the original front-end would be retained wherever possible;
 2. the React and Angular duplicates would be coded by contract, specifically, distinct components would be given as [Typescript](https://www.typescriptlang.org) interface programmer assignments.
 
-Condition 1 naturally led to the formulation of the interface assignments under condition 2. Angular 2's dependence on Typescript probably prompted condition 2, plus I had 'programmed to contract' before&#8212;for my 2009 Java Developer Certification&#8212;and I enjoyed the approach. Of note, under the interface programming approach, specific knowledge of income data fields can be delegated to the contract level, while ignored at the app level (albeit with unexamined consequences for database design.)
+Condition 1 naturally led to the formulation of the interface assignments under condition 2. Angular 2's dependence on Typescript probably prompted condition 2, plus I had 'programmed to contract' before&mdash;for my 2009 Java Developer Certification&mdash;and I enjoyed the approach. Of note, under the interface programming approach, specific knowledge of income data fields can be delegated to the contract level, while ignored at the app level (albeit with unexamined consequences for database design.)
 
 Finally, I had developed the sizemymultifamilyloan.com API code for modularity, where each loan-amount limiting criterion is contained as a Ruby gem and the gems then composed together. This approach allows for the calculation of Federal Housing Administration loan types beyond just the shown Section 223(f) type. The Ruby gems, and the rest of the site code, are available for inspection under the TK license here TK.
 
