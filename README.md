@@ -2,7 +2,10 @@
 
 To demonstrate my front-end web skills in 2017, I duplicate a [five-year-old front-end](http://www.sizemymultifamilyloan.com/api/fha_sec223f_demo) from my personal commercial real estate finance site, [sizemymultifamilyloan.com](http://www.sizemymultifamilyloan.com). The original front-end was completed in [CoffeeScript](http://coffeescript.org) on [Backbone](http://backbonejs.org) in [Rails](http://guides.rubyonrails.org/index.html) 3.
 
-I chose [React](https://facebook.github.io/react) and [Angular 2](https://angular.io) for the duplication effort due both to the popularity of the frameworks and to my comfort in the quality of ongoing support for them by Facebook and Google, respectively. The...TK
+For the duplication effort, I chose [React](https://facebook.github.io/react) and [Angular 2](https://angular.io) due to their popularity and to my comfort in the quality of their ongoing support by Facebook and Google, respectively. Additionally, I observed the following two constraints in my effort:
+
+1. the DOM structure and CSS style for the original front-end would be retained wherever possible;
+2. the duplicates would be coded by contract, that is, distinct components would be specified as programmer assignments in the form of Typescript interfaces
 
 Meanwhile, I developed the sizemymultifamilyloan.com API code for modularity, where each loan-amount limiting criterion is contained as a Ruby gem and the gems then composed together. This approach allows for the calculation of Federal Housing Administration Multifamily loan types beyond just the Section 223(f) type shown. The Ruby gems, and the rest of the site code, are available for inspection under the TK license here TK. I may 
 
