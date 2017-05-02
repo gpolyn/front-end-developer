@@ -1,6 +1,6 @@
 ## Welcome to my Front-End Developer Portfolio Site
 
-To demonstrate my front-end web skills in 2017, I duplicate a [five-year-old front-end](http://www.sizemymultifamilyloan.com/api/fha_sec223f_demo) from my personal commercial real estate finance site, [sizemymultifamilyloan.com](http://www.sizemymultifamilyloan.com). The original front-end was completed in [CoffeeScript](http://coffeescript.org) on [Backbone](http://backbonejs.org) and depended on the [Rails](http://guides.rubyonrails.org/index.html) 3 asset pipeline.
+To demonstrate my front-end web skills in 2017, I duplicate a [five-year-old front-end](http://www.sizemymultifamilyloan.com/api/fha_sec223f_demo) from my personal commercial real estate finance site, [sizemymultifamilyloan.com](http://www.sizemymultifamilyloan.com). The original front-end was completed in [CoffeeScript](http://coffeescript.org) on [Backbone](http://backbonejs.org) and depending on the [Rails](http://guides.rubyonrails.org/index.html) 3 asset pipeline.
 
 For the duplication effort, I chose [React](https://facebook.github.io/react) and [Angular 2](https://angular.io) due to their popularity and to my comfort in the quality of their ongoing support by Facebook and Google. I have observed the following two conditions in my duplication efforts:
 
