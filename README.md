@@ -12,9 +12,9 @@ I have observed the following three constraints in my React and Angular dupes:
 
 1. the DOM structure and CSS style for the original front-end would be retained wherever possible;
 2. the dupes would be coded by contract, specifically, distinct components would be given as [Typescript](https://www.typescriptlang.org) interface programmer assignments;
-3. the dupes would be developed to allow multiple users to share state simultaneously, for example, through a [Firebase](https://firebase.google.com) backend. 
+3. the dupes would be developed to allow multiple users to share state simultaneously, for example, through [Firebase](https://firebase.google.com). 
 
-Condition 1 naturally led to the formulation of the interface assignments under condition 2. Angular 2's dependence on Typescript prompted condition 2, plus I had 'programmed to contract' before&mdash;for my 2009 Java Developer Certification&mdash;and like the approach. As an example, under condition 2 specific knowledge of income data fields could be delegated at the contract level, while ignored at the app level (albeit with unexamined consequences for database design.) Last, condition 3 influenced me to borrow often from Reactive programming.
+Condition 1 led naturally to the formulation of the interface assignments under condition 2. Angular's dependence on Typescript prompted condition 2, plus I had 'programmed to contract' before&mdash;for my 2009 Java Developer Certification&mdash;and like the approach. As an example, under condition 2 specific knowledge of income data fields could be delegated at the contract level, while ignored at the app level (albeit with unexamined consequences for database design.) Condition 3, meanwhile, led me to borrow from Reactive programming.
 
 ### React first, flux architecture later
 
