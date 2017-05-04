@@ -2,9 +2,11 @@ To demonstrate my front-end web skills in 2017, I've replicated a [five-year-old
 
 ### Replica links
 
+_Note: The current linked replica releases do not express best practices&mdash;later releases (see schedule below) will make the replicas responsive, etc._
+
 The React replica is live at [gpolyn.github.io/react-fha](https://gpolyn.github.io/react-fha); the code is at [github.com/gpolyn/react-ui-fha-multifamily](https://github.com/gpolyn/react-ui-fha-multifamily).
 
-The Angular replica is live at [gpolyn.github.io/angular-fha/](https://gpolyn.github.io/angular-fha), which a project page at [gpolyn.github.io/angular-ui-fha-multifamily/](https://gpolyn.github.io/angular-ui-fha-multifamily) discusses in detail.
+The Angular replica is live at [gpolyn.github.io/angular-fha](https://gpolyn.github.io/angular-fha), which a project page at [gpolyn.github.io/angular-ui-fha-multifamily](https://gpolyn.github.io/angular-ui-fha-multifamily) discusses in detail.
 
 (The sizemymultifamilyloan.com code is at [github.com/gpolyn/fha-multifamily](https://github.com/gpolyn/fha-multifamily), where `vendor/gems/sec223f_acquisition-0.0.1` and `vendor/gems/sec223f_refinance-0.0.1` express the roots of the business logic.)
 
@@ -12,15 +14,15 @@ The Angular replica is live at [gpolyn.github.io/angular-fha/](https://gpolyn.gi
 
 I observed a few constraints in developing my React and Angular replicas.
 
-1. The DOM structure and CSS style for the original front-end would be retained wherever possible.
-2. The replicas would be coded by contract, specifically, distinct components would be given as [Typescript](https://www.typescriptlang.org) interfaces.
+1. The replicas would be coded by contract, specifically, distinct components would be given as [Typescript](https://www.typescriptlang.org) interfaces.
+2. The DOM structure and CSS style for the original front-end would be retained wherever possible.
 3. The replicas would anticipate that multiple users could share state simultaneously, for example, through a [Firebase](https://firebase.google.com) backend. 
 
-Condition 1 led naturally to the formulation of the interface assignments under condition 2. Angular's dependence on Typescript prompted condition 2, plus I had 'programmed to contract' before&mdash;for a 2009 Java Developer Certification&mdash;and I liked the approach. Under condition 2, for example, specific knowledge of component data fields could be delegated at the contract level in the replicas, while ignored at the app level (albeit with unexamined consequences for database design.) Condition 3, meanwhile, led me to borrow from Reactive programming.
+Angular's dependence on Typescript prompted condition 1, plus I had 'programmed to contract' before&mdash;for a 2009 Java Developer Certification&mdash;and I liked the approach. Under condition 1, for example, specific knowledge of component data fields could be delegated at the contract level in the replicas, while ignored at the app level (albeit with unexamined consequences for database design.) Condition 2, meanwhile, led naturally to the formulation of condition 1's interfaces.  Finally, condition 3 led me to borrow from Reactive programming.
 
 ### Planned releases
 
-(Releases 2-5 may not proceed in the given order.)
+_Note: The following releases are not necessarily in order._
 
 #### Release 1
 Basic duplication of original at [www.sizemymultifamilyloan.com/api/fha_sec223f_demo](www.sizemymultifamilyloan.com/api/fha_sec223f_demo) deployed to public sites as result of CI process.
