@@ -24,27 +24,27 @@ Angular's dependence on Typescript prompted condition 1, plus I had 'programmed 
 
 _Note: The following releases are not necessarily in order._
 
-### "Otter"
+#### "Otter"
 <div class='release-description-container'>
-Baseline duplication of original at [sizemymultifamilyloan.com/api/fha_sec223f_demo](www.sizemymultifamilyloan.com/api/fha_sec223f_demo) deployed to public sites as result of CI process.
+Baseline duplication of original at <a href="http://www.sizemymultifamilyloan.com/api/fha_sec223f_demo">sizemymultifamilyloan.com/api/fha_sec223f_demo</a> deployed to public sites as result of CI process.
 </div>
-### "Flounder"
+#### "Flounder"
 <div class='release-description-container'>
 Responsive design: routing, navigation and atomization control groups.
 </div>
-### "Stork"
+#### "Stork"
 <div class='release-description-container'>
 <a href="http://www.sizemymultifamilyloan.com/api/fha_overview">sizemymultifamilyloan.com API</a> is mocked to simulate interaction for front-end.
 </div>
-### "Pinto"
+#### "Pinto"
 <div class='release-description-container'>
-[sizemymultifamilyloan.com API](http://www.sizemymultifamilyloan.com/api/fha_overview) is seamlesslessly integrated.
+<a href="http://www.sizemymultifamilyloan.com/api/fha_overview">sizemymultifamilyloan.com API</a> is seamlesslessly integrated.
 </div>
-### "D-Day"
+#### "D-Day"
 <div class='release-description-container'>
 Firebase backend is integrated and user-model persistence added.
 </div>
-### "Bluto"
+#### "Bluto"
 <div class='release-description-container'>
 Many users can join same loan 'session', writing shared app-state in real-time.
 </div>
