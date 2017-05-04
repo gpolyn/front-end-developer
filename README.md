@@ -26,7 +26,7 @@ _Note: The following releases are not necessarily in order._
 
 ### "Otter"
 <div class='release-description-container'>
-Baseline duplication of original at [www.sizemymultifamilyloan.com/api/fha_sec223f_demo](www.sizemymultifamilyloan.com/api/fha_sec223f_demo) deployed to public sites as result of CI process.
+Baseline duplication of original at [sizemymultifamilyloan.com/api/fha_sec223f_demo](www.sizemymultifamilyloan.com/api/fha_sec223f_demo) deployed to public sites as result of CI process.
 </div>
 ### "Flounder"
 <div class='release-description-container'>
