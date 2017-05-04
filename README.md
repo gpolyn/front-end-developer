@@ -25,16 +25,15 @@ Angular's dependence on Typescript prompted condition 1, plus I had 'programmed 
 _Note: The following releases are not necessarily in order._
 
 ### "Otter"
-Baseline duplication of original at [www.sizemymultifamilyloan.com/api/fha_sec223f_demo](www.sizemymultifamilyloan.com/api/fha_sec223f_demo) deployed to public sites as result of CI process.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Baseline duplication of original at [www.sizemymultifamilyloan.com/api/fha_sec223f_demo](www.sizemymultifamilyloan.com/api/fha_sec223f_demo) deployed to public sites as result of CI process.
 ### "Flounder"
-Responsiveness for: routing introduced
-
-### "Bluto"
-
-### "Pinto"
-API seamlesslessly integrated
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Responsive design: routing, navigation and atomization control groups.
 ### "Stork"
-
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[sizemymultifamilyloan.com API](http://www.sizemymultifamilyloan.com/api/fha_overview)is mocked to simulate interaction for front-end.
+### "Pinto"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[sizemymultifamilyloan.com API](http://www.sizemymultifamilyloan.com/api/fha_overview) is seamlesslessly integrated.
 ### "D-Day"
-Firebase backend introduced
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Firebase backend is integrated and user-model persistence added.
+### "Bluto"
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Many users can join same loan 'session', writing shared app-state in real-time.
 
