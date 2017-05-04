@@ -34,7 +34,7 @@ Responsive design: routing, navigation and atomization control groups.
 </div>
 ### "Stork"
 <div class='release-description-container'>
-[sizemymultifamilyloan.com API](http://www.sizemymultifamilyloan.com/api/fha_overview) is mocked to simulate interaction for front-end.
+<a href="http://www.sizemymultifamilyloan.com/api/fha_overview">sizemymultifamilyloan.com API</a> is mocked to simulate interaction for front-end.
 </div>
 ### "Pinto"
 <div class='release-description-container'>
