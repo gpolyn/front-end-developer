@@ -2,7 +2,7 @@ To demonstrate my front-end web skills in 2017, I've replicated a [five-year-old
 
 ### Replica links
 
-_Note: The current linked replica releases do not express best practices&mdash;later releases (see schedule below) will make the replicas responsive, etc._
+_Note: The current linked releases do not express best practices&mdash;later releases (see below) will make the replicas responsive, etc._
 
 The React replica is live at [gpolyn.github.io/react-fha](https://gpolyn.github.io/react-fha); the code is at [github.com/gpolyn/react-ui-fha-multifamily](https://github.com/gpolyn/react-ui-fha-multifamily).
 
