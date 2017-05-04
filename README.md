@@ -25,17 +25,27 @@ Angular's dependence on Typescript prompted condition 1, plus I had 'programmed 
 _Note: The following releases are not necessarily in order._
 
 ### "Otter"
+<div class='release-description-container'>
 Baseline duplication of original at [www.sizemymultifamilyloan.com/api/fha_sec223f_demo](www.sizemymultifamilyloan.com/api/fha_sec223f_demo) deployed to public sites as result of CI process.
+</div>
 ### "Flounder"
+<div class='release-description-container'>
 Responsive design: routing, navigation and atomization control groups.
+</div>
 ### "Stork"
-[sizemymultifamilyloan.com API](http://www.sizemymultifamilyloan.com/api/fha_overview)is mocked to simulate interaction for front-end.
+<div class='release-description-container'>
+[sizemymultifamilyloan.com API](http://www.sizemymultifamilyloan.com/api/fha_overview) is mocked to simulate interaction for front-end.
+</div>
 ### "Pinto"
-sizemymultifamilyloan.com API](http://www.sizemymultifamilyloan.com/api/fha_overview) is seamlesslessly integrated.
+<div class='release-description-container'>
+[sizemymultifamilyloan.com API](http://www.sizemymultifamilyloan.com/api/fha_overview) is seamlesslessly integrated.
+</div>
 ### "D-Day"
+<div class='release-description-container'>
 Firebase backend is integrated and user-model persistence added.
+</div>
 ### "Bluto"
-<div id='bluto-content'>
+<div class='release-description-container'>
 Many users can join same loan 'session', writing shared app-state in real-time.
 </div>
 
