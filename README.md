@@ -2,6 +2,12 @@ To demonstrate my front-end web skills in 2017, I've replicated a [five-year-old
 
 ### Replica links
 
+The React replica is live at [gpolyn.github.io/react-fha](https://gpolyn.github.io/react-fha); the code is at [github.com/gpolyn/react-ui-fha-multifamily](https://github.com/gpolyn/react-ui-fha-multifamily).
+
+The Angular replica is live at [gpolyn.github.io/angular-fha/](https://gpolyn.github.io/angular-fha), which a project page at [gpolyn.github.io/angular-ui-fha-multifamily/](https://gpolyn.github.io/angular-ui-fha-multifamily) discusses in detail.
+
+(The sizemymultifamilyloan.com code is at [github.com/gpolyn/fha-multifamily](https://github.com/gpolyn/fha-multifamily), where `vendor/gems/sec223f_acquisition-0.0.1` and `vendor/gems/sec223f_refinance-0.0.1` express the roots of the business logic.)
+
 ### Three constraints
 
 I observed a few constraints in developing my React and Angular replicas.
