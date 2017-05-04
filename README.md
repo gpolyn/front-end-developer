@@ -1,6 +1,6 @@
 To demonstrate my front-end web skills in 2017, I've replicated a [five-year-old front-end](http://www.sizemymultifamilyloan.com/api/fha_sec223f_demo) from my commercial real estate finance site [sizemymultifamilyloan.com](http://www.sizemymultifamilyloan.com) in [React](https://facebook.github.io/react) and in [Angular 2](https://angular.io). The original was done in [CoffeeScript](http://coffeescript.org) on [Backbone](http://backbonejs.org) and depended on the [Rails](http://guides.rubyonrails.org/index.html) 3 asset pipeline. I chose React and Angular for the replicas due to their popularity and to my comfort in the quality of their ongoing support by Facebook and Google.
 
-### Replica links
+## Replica links
 
 _Note: The current linked releases do not express best practices&mdash;later releases (see below) will make the replicas responsive, etc._
 
@@ -10,7 +10,7 @@ The Angular replica is live at [gpolyn.github.io/angular-fha](https://gpolyn.git
 
 (The sizemymultifamilyloan.com code is at [github.com/gpolyn/fha-multifamily](https://github.com/gpolyn/fha-multifamily), where `vendor/gems/sec223f_acquisition-0.0.1` and `vendor/gems/sec223f_refinance-0.0.1` express the roots of the business logic.)
 
-### Three constraints
+## Three constraints
 
 I observed a few constraints in developing my React and Angular replicas.
 
@@ -20,16 +20,21 @@ I observed a few constraints in developing my React and Angular replicas.
 
 Angular's dependence on Typescript prompted condition 1, plus I had 'programmed to contract' before&mdash;for a 2009 Java Developer Certification&mdash;and I liked the approach. Under condition 1, for example, specific knowledge of component data fields could be delegated at the contract level in the replicas, while ignored at the app level (albeit with unexamined consequences for database design.) Condition 2, meanwhile, led naturally to the formulation of condition 1's interfaces.  Finally, condition 3 led me to borrow from Reactive programming.
 
-### Planned releases
+## Planned releases
 
 _Note: The following releases are not necessarily in order._
 
-#### Release 1
-Basic duplication of original at [www.sizemymultifamilyloan.com/api/fha_sec223f_demo](www.sizemymultifamilyloan.com/api/fha_sec223f_demo) deployed to public sites as result of CI process.
-#### Release 2
-Dupes made 'responsive': routing introduced.
-### Release 4
+### "Otter"
+Baseline duplication of original at [www.sizemymultifamilyloan.com/api/fha_sec223f_demo](www.sizemymultifamilyloan.com/api/fha_sec223f_demo) deployed to public sites as result of CI process.
+### "Flounder"
+Responsiveness for: routing introduced
+
+### "Bluto"
+
+### "Pinto"
 API seamlesslessly integrated
-#### Release 3
+### "Stork"
+
+### "D-Day"
 Firebase backend introduced
 
