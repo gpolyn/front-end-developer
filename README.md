@@ -35,7 +35,7 @@ sizemymultifamilyloan.com API](http://www.sizemymultifamilyloan.com/api/fha_over
 ### "D-Day"
 Firebase backend is integrated and user-model persistence added.
 ### "Bluto"
-<div>
+<div id='bluto-content'>
 Many users can join same loan 'session', writing shared app-state in real-time.
 </div>
 
